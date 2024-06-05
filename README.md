@@ -1,8 +1,11 @@
 # __Sejam bem-vindos!__
     O site Basketball, não é apenas mais um site qualquer apenas para falar sobre esse esporte que todos nós amamos,
-    mas é o SEU site sobre Basket, aqui você pode conferir os detalhes, história e informações sobre o seu time do
-    coração, fique por dentro de todas as novidades e destaques sobre esse esporte que cada vez mais ganha o coração
-    dos seus fãs e praticantes.
+    mas é o SEU site sobre Basket.
+    
+    Aqui você pode conferir os detalhes, história e informações sobre o seu time do coração, fique por dentro de
+    todas as novidades e destaques sobre esse esporte que cada vez mais ganha o coração dos seus fãs e praticantes.
+
+    O site é voltado para todas as idades, afinal não se tem parâmetros quando falamos sobre paixão pelo esporte.
 
 ## __Documentação Técnica__
 ### Estrutura de navegação
