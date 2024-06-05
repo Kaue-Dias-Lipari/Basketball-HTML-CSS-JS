@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: montserrat;
+  cursor: none;
+}
+
+html, body {
+  cursor: none;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  opacity: 0;
+  background-color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  background: linear-gradient(black, orange, black);
+  border-radius: 50px;
+}
+
+.cursor {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition-timing-function: ease-out;
+  animation: cursorAnim .5s infinite alternate;
+  pointer-events: none;
+  z-index: 11;
+}
+
+@keyframes cursorAnim {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(1.5);
+  }
+}
+
+.outer {
+  border: 1px solid white;
+}
+
+.inner {
+  background: orange;
+  transition: 250ms ease-out;
+}
+
+.cursor.hover {
+  background: none;
+}
+
+header {
+  display: flex;
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  height: 100%;
+  width: 50%;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.logo h1 {
+  color: white;
+  font-weight: 100;
+  margin-left: 25px;
+  font-family: "Myriad Pro";
+}
+
+.menu {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+}
+
+.menu ul li {
+  transition: all 200ms;
+  list-style: none;
+}
+
+.menu ul li:hover {
+  border-bottom: 1px solid orange;
+  padding: 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  transition: all 200ms;
+  font-size: 20px;
+  font-family: "Myriad Pro";
+}
+
+.menu ul li a:hover {
+  color: orange;
+  font-size: 130%;
+  height: 2000px;
+}
+
+main {
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(53, 53, 53), black);
+}
+
+.banner-inicio {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-img {
+  padding: 50px;
+}
+
+.banner-img img {
+  max-width: 350px;
+}
+
+.banner-texto {
+  color: white;
+  font-size: 30px;
+  padding: 50px;
+}
+
+.banner-texto h1 {
+  text-shadow: 2px 2px 10px black;
+  letter-spacing: 2px; 
+}
+
+.banner-texto #botao {
+  border: 2px 2px white;
+  width: 200px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 16px;
+  background-color: rgb(98, 64, 0);
+  margin-top: 20px;
+  padding: 20px 0px 20px 0px;
+  box-shadow: 0px 0px 0px white;
+  transition: all 400ms;
+}
+
+.banner-texto #botao:hover {
+  scale: 110%;
+  background-color: rgb(255, 166, 0);
+}
+
+.banner-texto #botao a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  text-shadow: 0px 0px 5px black;
+  font-weight: 400;
+}
+
+.conteudo {
+  height: 1100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+  flex-wrap: wrap;
+}
+
+.conteudo a {
+  text-decoration: none;
+  height: 400px;
+}
+
+.conteudo .card {
+  margin: 20px;
+  height: 500px;
+  width: 550px;
+  border: 1px solid black;
+  box-shadow: inset 0px 0px 25px 0px rgb(0, 0, 0);
+  backdrop-filter: blur(5px);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transition: all 200ms;
+}
+
+.conteudo #bulls {
+  background-image: radial-gradient(rgb(255, 114, 114), rgb(241, 0, 0), rgb(118, 0, 0));
+}
+
+.conteudo #golden {
+  background-image: radial-gradient(rgb(110, 110, 255), rgb(73, 73, 255), rgb(0, 0, 126));
+}
+
+.conteudo #lakers {
+  background-image: radial-gradient(#d16fff, #a300ee, #7200a7);
+}
+
+.conteudo #clippers {
+  background-image: radial-gradient(#6467ff, #0004ee, #00026d);
+}
+
+.conteudo #brooklyn {
+  background-image: radial-gradient(#808080, #dadada, #5e5e5e);
+}
+
+.conteudo #brooklyn img {
+  width: 250px;
+}
+
+.conteudo #celtics {
+  background-image: radial-gradient(#75ff70, #07da00, #047500);
+}
+
+.conteudo .card:hover {
+  scale: 105%;
+}
+
+.conteudo .card h2 { 
+  color: white;
+}
+
+.conteudo .card img {
+  width: 400px;
+}
+
+
+@media (max-width: 1700px) {
+  .conteudo {
+    height: 1700px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .conteudo {
+    height: 3300px;
+  }
+}
+
+@media (max-width: 1000px) {
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .logo img {
+    width: 25px;
+  }
+  
+  .logo h1 {
+    color: white;
+    font-weight: 100;
+    margin-left: 25px;
+    font-size: 20px;
+  }
+
+  .menu {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .menu ul {
+    width: 100%;
+  }
+
+  .banner-inicio {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .banner-img {
+    padding: 0px;
+  }
+
+  .banner-img img {
+    max-width: 170px;
+  }
+
+  .banner-texto {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .banner-texto #botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .conteudo {
+    height: 1300px;
+  }
+
+  .conteudo .card {
+    width: 350px;
+    height: 350px;
+  }
+
+  .conteudo .card img {
+    width: 300px;
+  }
+
+  
+}
+
+@media (max-width: 800px) {
+  .conteudo {
+    height: 2500px;
+  }
+}

@@ -1,0 +1,51 @@
+.sobre {
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.sobre .titulo {
+    width: 50%;
+    text-align: end;
+    font-size: 60px;
+}
+
+.sobre .barra {
+    color: white;
+    height: 300px;
+    width: 4px;
+    background-color: white;
+    margin: 30px;
+}
+
+.sobre .texto {
+    font-size: 30px;
+}
+
+
+@media (max-width: 1000px) {
+    .sobre {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .sobre .titulo {
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .sobre .barra {
+        color: white;
+        height: 4px;
+        width: 300px;
+        margin: 20px;
+    }
+    
+    .sobre .texto {
+        font-size: 10px;
+        text-align: center;
+    }
+}
