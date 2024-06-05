@@ -1,4 +1,4 @@
-# __Sejam bem-vindos__
+# __Sejam bem-vindos!__
     O site Basketball, não é apenas mais um site qualquer apenas para falar sobre esse esporte que todos nós amamos,
     mas é o SEU site sobre Basket, aqui você pode conferir os detalhes, história e informações sobre o seu time do
     coração, fique por dentro de todas as novidades e destaques sobre esse esporte que cada vez mais ganha o coração
