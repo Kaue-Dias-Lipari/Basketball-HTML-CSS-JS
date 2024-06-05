@@ -9,11 +9,11 @@
 
 ## __Documentação Técnica__
 ### Estrutura de navegação
-    * Menu: Topo da página onde se encontra a logo a esquerda e menu de navegação a direita.
-    * Home: Parte inicial, onde pode ver o menu de navegação no topo e logo a baixo o banner de apresentação.
-    * Cards: Logo a baixo do banner de apresentação, se encontra alguns cards, cada um com um time.
-    * Sobre: Página onde conta quem somos e um pouco mais sobre nós.
-    * Times: Ao clicar em um card de algum time, você é redirecionado para uma página exclusiva com as informações do time.
+* Menu: Topo da página onde se encontra a logo a esquerda e menu de navegação a direita.
+* Home: Parte inicial, onde pode ver o menu de navegação no topo e logo a baixo o banner de apresentação.
+* Cards: Logo a baixo do banner de apresentação, se encontra alguns cards, cada um com um time.
+* Sobre: Página onde conta quem somos e um pouco mais sobre nós.
+* Times: Ao clicar em um card de algum time, você é redirecionado para uma página exclusiva com as informações do time.
 
 ### HTML
     Após a estrutura básica do HTML, pode se notar que temos uma div sem conteúdo, ela é responsável pela
@@ -51,5 +51,8 @@
     Também colocamos para toda vez que o mouse se encontra em um link, uma classe, na qual remove a cor de fundo
     do cursor, é adicionada ao cursor, dando um efeito a mais para ele.
 
+### ✅ Como rodar o projeto
+    Faça o download do repositório ou clone-o usando o Git:
+    gh repo clone Kaue-Dias-Lipari/Basketball-HTML-CSS-JS
 
 
