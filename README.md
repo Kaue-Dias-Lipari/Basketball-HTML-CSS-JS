@@ -1,6 +1,12 @@
-# __Documentação__
+# __Sejam bem-vindos__
+    O site Basketball, não é apenas mais um site qualquer apenas para falar sobre esse esporte que todos nós amamos,
+    mas é o SEU site sobre Basket, aqui você pode conferir os detalhes, história e informações sobre o seu time do
+    coração, fique por dentro de todas as novidades e destaques sobre esse esporte que cada vez mais ganha o coração
+    dos seus fãs e praticantes.
 
-* ## HTML
+## __Documentação Técnica__
+
+* ### HTML
     Após a estrutura básica do HTML, pode se notar que temos uma div sem conteúdo, ela é responsável pela customização do cursor.
 
     Colocamos dentro da tag Header toda parte do menu e cabeçalho, utilizamos a tag ul de lista não ordenada pra dispor a parte de navegação do site.
@@ -12,7 +18,7 @@
 
     Os cards seguem até o final do documento, finalizando o HTML com o link do Java Script.
 
-* ## CSS
+* ### CSS
     No CSS utilizamos o modelo em cascata, onde seguimos com a estilização de cada item do site em ordem, utilizamos classes e id's para nomear cada tag necessária do HTML, assim estilizando
     através dessas classes e id's.
 
@@ -22,7 +28,7 @@
 
     Por fim adicionei a sessão onde deixamos a página responsiva, funcionando em desktops, notebooks, tablets e celulares.
 
-* ## Java Script
+* ### Java Script
     Utilizamos o Java Script basicamente para a personalização do cursor, onde ele pega a posição X e Y do cursor e posiciona a div que criamos para isso anteriormente, de acordo com a posição do mouse.
 
     Também colocamos para toda vez que o mouse se encontra em um link, uma classe, na qual remove a cor de fundo do cursor, é adicionada ao cursor, dando um efeito a mais para ele.
